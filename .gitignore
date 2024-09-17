@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables file
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for storing local MongoDB database (if applicable)
+data/
+
+# Compiled source (if using TypeScript or Babel)
+dist/
+build/
+
+# Coverage directory for test reports
+coverage/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# npm package locks
+package-lock.json
+yarn.lock
+
+# Ignore temporary files
+*.swp
+*.bak
+*.tmp
